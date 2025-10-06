@@ -8,7 +8,7 @@ import { API_ROUTES } from "../../../api/routes";
 import { Link } from "react-router-dom";
 
 import { toast } from "react-toastify";
-import Stats from "./stats";
+import Stats from "./Stats";
 
 const NewThisWeek = () => {
   const [products, setProducts] = useState([]);

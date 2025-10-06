@@ -6,7 +6,7 @@ import { fetchAllProductUser } from "../../Admin/AdminAPI";
 import { addtoCart,addtoWishlist } from "../HomePageAPI";
 import { API_ROUTES } from "../../../api/routes";
 import { toast } from "react-toastify";
-import Stats from "./stats";
+import Stats from "./Stats";
 
 const NewItems = () => {
   const [products, setProducts] = useState([]);
